@@ -1,0 +1,73 @@
+@import "../../global.scss";
+
+.skills {
+  background-color: rgb(202, 202, 202);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 50px;
+    color: $mainColor;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin: 20px;
+  }
+
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .wrapper {
+      width: 80px;
+      height: 80px;
+      border-radius: 20px;
+      border: 1px solid rgb(240, 239, 239);
+      margin: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      transition: all 0.5s ease;
+      cursor: pointer;
+
+      h3 {
+        position: absolute;
+        font-size: 16px;
+        opacity: 0;
+        color: white;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        z-index: 1;
+        padding: 5px;
+      }
+
+      &:hover {
+        background-color: $mainColor;
+
+        img {
+          opacity: 0.2;
+          z-index: 0;
+        }
+
+        h3 {
+          transition: all 0.5s ease;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

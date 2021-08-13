@@ -15,7 +15,7 @@ export const featuredPortfolio = [
       id: 3,
       title: "Mobiant.com",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+      process.env.PUBLIC_URL + "/assets/g1.png",
     },
   ];
   
@@ -23,22 +23,22 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Mobiant",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      img: process.env.PUBLIC_URL + "/assets/ig4.png",
     },
     {
       id: 2,
       title: "Music App",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+      img: process.env.PUBLIC_URL + "/assets/ig3.png",
     },
     {
       id: 3,
       title: "Web E-commerce Design App",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+      img: process.env.PUBLIC_URL + "/assets/ig2.png",
     },
     {
       id: 4,
       title: "RememberThat Webpage",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+      img: process.env.PUBLIC_URL + "/assets/ig1.png",
     },
     {
       id: 5,
@@ -57,19 +57,19 @@ export const featuredPortfolio = [
       id: 1,
       title: "Adventour",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      process.env.PUBLIC_URL + "/assets/w1.png",
     },
     {
       id: 2,
       title: "Bootstrap Clone",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      process.env.PUBLIC_URL + "/assets/w3.png",
     },
     {
       id: 3,
       title: "The Chef",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      process.env.PUBLIC_URL + "/assets/w2.png",
     },
   ];
   

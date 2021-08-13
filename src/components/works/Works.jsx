@@ -10,7 +10,7 @@ function Works() {
                         <div className="left">
                             <div className="leftContainer">
                                 <div className="imgContainer">
-                                    <img src="assets/globe.png" alt="" />
+                                    <img src={process.env.PUBLIC_URL + "/assets/globe.png"} alt="" />
                                 </div>
                                 <h2>Sunflower Lab</h2>
                                 <p>Contributed to a team of four members to design, implement, and extend a web application for continuous improvement within tight deadlines. </p>
